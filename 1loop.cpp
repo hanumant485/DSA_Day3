@@ -41,33 +41,44 @@ int main(){
     }
     cout<<sumOfSquares<<"\n";
 
-//printing 1-5 5times
+//printing 1-5 6times
 
     for(int i=1; i<=5; i++){
-        cout<<i<<"\n";
+        cout<<i<<" ";
     }
+    cout<<endl;
 
     for(int i=1; i<=5; i++){
-        cout<<i<<"\n";
+        cout<<i<<" ";
     }
+    cout<<endl;
 
     for(int i=1; i<=5; i++){
-        cout<<i<<"\n";
+        cout<<i<<" ";
     }
+    cout<<endl; 
 
     for(int i=1; i<=5; i++){
-        cout<<i<<"\n";
+        cout<<i<<" ";
     }
+    cout<<endl;
 
     for(int i=1; i<=5; i++){
-        cout<<i<<"\n";
+        cout<<i<<" ";
     }
+    cout<<endl; 
+
+    for(int i=1; i<=5; i++){
+        cout<<i<<" ";
+    }
+    cout<<endl;
 
 //nested loop
-    for(int j=1; j<=5; j++){
+    for(int j=1; j<=5; j++){ // it start like this j=1 then j<=5 then it goes to for(int i=1; i<=5; i++)
         for(int i=1; i<=5; i++){
-            cout<<i<<"\n";
+            cout<<i<<" ";
         }
+        cout<<endl;
     }
 
 
