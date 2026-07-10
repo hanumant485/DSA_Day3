@@ -140,6 +140,67 @@ for(int j=11; j<=15; j++){
     cout<<endl; 
 
     
-
+for(int i=1; i<=4; i++){
+    for(int j=1; j<=7; j++){
+        cout<<"*"<<" ";
+    }
+    cout<<endl;
 }
 
+for(int i=1; i<=6; i++){
+    for(int j=1; j<=i; j++){
+        cout<<"*"<<" ";
+    }
+    cout<<endl;
+}
+
+for(int i=6; i>=1; i--){
+    for(int j=1; j<=i; j++){
+        cout<<"*"<<" ";
+    }
+    cout<<endl;
+}
+
+for(int i=1; i<=6; i++){
+    for(int j=1; j<=i; j++){
+        cout<<j<<" ";
+    }
+    cout<<endl;
+}
+
+
+for(int i=6; i>=1; i--){
+    for(int j=1; j<=i; j++){
+        cout<<" ";
+    }
+    for(int z=1; z<=7-i; z++){
+        cout<<"*";
+    }
+    cout<<endl;
+}
+
+for(int i=1; i<=25; i+=5){
+    for(int j=i; j<=i+4; j++){
+        cout<<j<<" ";
+    }
+    cout<<endl;
+}
+
+for(int i=0; i<5; i++){
+    for(int j=0; j<i; j++){
+        cout<<" ";
+    }
+    for(int j=0; j<5-i; j++){
+        cout<<"*";
+    }
+    cout<<endl;
+}
+
+for(int row=1; row<=5; row++){
+    for(int col=1; col<=5; col++){
+        cout<<row*col<<" ";
+    }
+    cout<<endl;
+}
+
+}
