@@ -19,6 +19,7 @@ for(int j=1; j<=5; j++){
 }
 cout<<endl;
 
+
 for(int i=1; i<=1; i++){
     cout<<"*";
 }
